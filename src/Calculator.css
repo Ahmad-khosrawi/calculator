@@ -1,0 +1,50 @@
+@font-face {
+    font-family: bitco;
+    src: url(../assets/fonts/BitcountInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf);
+}
+.container{
+    width: 500px;
+}
+.screen{
+    height: 130px;
+    line-height: 130px;
+    padding: 0  20px;
+    font-size: 50px;
+    text-align: right;
+    background-color: #7645fe;
+    color: white;
+    font-family: bitco;
+    border-radius: 5px 5px 0 0;
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ button{
+    width: 125px;
+    height: 80px;
+    border: 0;
+    color: 0;
+    background-color: #262834;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid #999;
+    border-radius: 20%;
+    transition: all .5s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: lime;
+}
+.color{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+}
+.two{
+    width: 250px;
+}
